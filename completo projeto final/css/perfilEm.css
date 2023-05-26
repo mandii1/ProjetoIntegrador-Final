@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* display: flex; */
+}
+body{
+    display: flex;
+   
+}
+
+.nav-lt{
+    position: fixed;
+    left: 0;
+}
+.navegacao{
+    width: 190px;
+    height: 883px;
+    
+    background-color: #003D76;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 10px ;
+    height: 90px;
+    width: 180px;
+
+    border-bottom: 5px solid #C7F1FF;
+}
+.botao{
+    flex-direction: column;
+}
+.box{
+    margin-left: -30px;
+    padding: 13px 13px 5px 10px;
+
+    width: 180px;
+    height: 61px;
+
+    border-bottom: 2px solid #C7F1FF;
+    color: #fff;
+    font-weight: 600;
+}
+.dropdown-menu a{
+    background-color: #1f8DF2;
+}
+.box-end{
+    align-self: flex-end;
+    border-top: 1px solid #C7F1FF;
+}
+.box-end img{
+    width: 24px;
+    height: 24px;
+}
+.item{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-top{
+    position: fixed;
+    top: 0;
+    margin-left: 200px;
+    z-index: 2;
+}
+.eletros{
+    background-color: #003D76;
+    color: #fff;
+    text-align: start;
+    display: flex;
+    width: 1550px;
+    height: 79px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 11px;
+}
+.eletros h3{
+    padding: 21px;  
+}
+.eletros button{
+width: 200px;
+height: 30px;
+margin: 5px 20px ;
+}
+.area{
+    flex-direction: column;
+    
+}
+form{
+    margin: 50px 30px 0 100px;
+    /* margin-left: 30px; */
+    display: flex;
+}
+
+
+input.pesquisar{
+    width: 584px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+    font-size: 20px;
+    border-right: none;
+    z-index: 1;
+    position: fixed;
+   top: 100px;
+   left: 340px;
+}
+.pesquisa button{
+    position: fixed;
+    z-index: 2;
+    left: 910px;
+    top: 100px;
+    margin-right: 150px;
+
+    background-color: #dbdbdb;
+    height: 42px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ordenar{
+    display: flex;
+    align-self: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+    color: #1f8df2;
+    width: 297px;
+    height: 42px;
+    position: fixed;
+    left: 1255px;
+    top: 100px;
+    z-index: 2;
+      
+}
+.ordenar p{
+    padding: 5px 30px 0 20px;
+}
+.select{
+    color: #1f8df2;
+    background-color: #dbdbdb;
+    border: none;
+}
+.classificacao{
+    width: 110px;
+}
+.estrela{
+    width: 100px;
+}
+
+.produtos{
+    height: 1500px; 
+    margin-left: 245px;
+    margin-top: 100px;
+    bottom: -100px;
+}
+.item-produto{
+    background-color: #c9c9c9;
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    margin: 40px 0 40px 100px;
+}
+
+
+.item-produto img{
+    width: 203px;
+    height: 166px;
+    border-radius: 10px;
+    margin: 10px 30px 10px 40px;
+}
+
+.mas{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    color: #1f8DF2;
+    font-weight: 600;
+}
+.info{
+    margin: 10px;
+}
+.info2{
+    width: 200px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    margin: -150px 40px 10px 600px;
+}
+.info2 div{
+    width: 200px;
+    margin: 0 0 0 150px;
+}
+/* --------------------------------------------------------------- */
+
+.vermais{
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #5a1010;
+    border-radius: 5px;
+    align-items: start;
+    color: #c9c9c9;
+    margin-bottom: 10px;
+}
+.vermais img{
+    width: 30px;
+    height: 20px;
+    margin: -15px 10px -9px -10px;
+}
+.disponivel span{
+    color: green;
+}
+.indisponivel span{
+    color: red;
+}
+.pagar{
+    background-color: #003D76;
+    width: 150px;
+    height: 668px;
+    position: fixed;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+
+    margin: 120px 0 0 -170px;
+    padding: 10px 10px 10px 10px;
+}
+
+.cartao{
+    width: 67px;
+}
+.c{
+    display: flex;
+    
+}
+
+.cartao2{
+    width: 50px;
+    height: 40px;
+    padding-bottom: -20px;
+    background-color: white;
+    border-radius: 4px;
+
+    margin: 0 0 0 10px;
+}
+
+.cartao2 img{
+    width: 50px;
+    height: 40px;
+}
+/* -----------------------------------------------------------------------------------
+--------------------------------------------------------------------- */
+
+
+.avaliar{
+    display: flex;
+    margin-left: -30px;
+   }
+  .estrela-icon{
+    color: #ffdb58;
+
+    cursor: pointer;
+
+    font-size: 30px;
+    list-style-type: none;
+  }
+  .estrela-icon::before{
+    content: "\2605";
+  }
+  .estrela-icon.ativo ~ .estrela-icon::before{
+    content: "\2606";
+  }
+  .estrela-icon::before{
+    content: "\2605";
+  }
+  .estrela-icon:hover ~ .estrela-icon::before{
+    content: "\2606";
+  }

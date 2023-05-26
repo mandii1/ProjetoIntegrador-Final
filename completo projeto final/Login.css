@@ -1,0 +1,258 @@
+:root{
+    --blue:hsl(186,100,91,100%); 
+    --white:hsl(209,64,47,100%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif Thai', serif;
+   
+}
+
+
+.main{
+
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.imgback{
+    background-image:url( "/img/fundo.png");
+    background: linear-gradient(to right,#CFFAFF, #2C7CC6);
+    max-width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+
+.container{
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+.img{
+    min-width: 100vw;
+   max-height: 100vh;
+}
+
+main{
+position: fixed;
+top: 0;
+display: flex;
+align-items: center;
+align-content: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 4.4rem;
+    gap: 4.5rem;
+    align-items: center;
+    border-right: solid 3px #2D3D56;
+    margin-top: 3rem;
+}
+
+.btn{
+    max-width: 120px;
+    background: none;
+    font-size: larger;
+    border: none;
+    color: #163E64;
+    font-weight: bold;
+}
+.text{
+    max-width: 800px;
+    padding: 4rem;
+    margin-right: 100px;
+}
+
+.text-p{
+    width: 350px;
+}
+
+.text div{
+    margin-bottom: 20px;
+}
+
+.text div h1{
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #163E64;
+}
+
+.text div p{
+    font-size: 16px;
+    color: #163E64;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    max-height: 700px;
+    align-items: center;
+   
+}
+
+.social-rede{
+    width: 600px;
+    display: flex;
+    padding-left: 25rem;
+}
+
+.social-svg{
+    background-color: #163E64;
+    display: flex;
+    width: 200px;
+    align-content: center;
+  gap: 2rem;
+  padding-left: 0.9rem;
+  padding-top: 0.3rem;
+  border-radius: 10px;
+}
+
+.text-btn{
+    padding: 0.5rem;
+    border-radius: 22px;
+    text-align: center;
+    font-size: medium;
+    width: 300px;
+    background-color: #163E64;
+    color: white;
+}
+
+.soc-img{
+    margin-right: -20px;
+}
+
+
+/*-------------------------------------------- Cadastro -------------------------------------------*/
+.tela-black{
+    background-color: rgba(0, 0, 0, 0.523);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+   
+}
+.caixa{
+background-color: none;
+width: 100vw;
+height: 100vh;
+z-index: 1;
+display: flex;
+align-items: center;
+align-content: center;
+position: fixed;
+justify-content: center;
+}
+
+.caixa-2{
+   background-color: none;
+   width: 1000px;
+   height: 700px;
+   display: flex;
+   border-radius: 22px;
+   overflow: hidden;
+   box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.507);
+}
+
+
+.slides input{
+    display: none;
+}
+
+.cax-1{
+    background: linear-gradient(#CFFAFF, #2379BE);
+    width: 50%;
+    border-radius: 22px;
+    border-right: 4px solid white;
+}
+.cax-1 img{
+    max-width: 100%;
+    position: relative;
+    border-radius: 22px;
+}
+
+.cax-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    border-left: 4px solid white; 
+    background: linear-gradient(#CFFAFF, #2379BE);
+    border-radius: 22px;
+}
+
+.log-cad{
+    display: flex;
+    background-color: none;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.log-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input{
+    padding: 1rem;
+    width: 300px;
+    border-radius: 40px;
+    background-color: #CFFAFF;
+}
+.btn-log{
+    padding: 0.9rem;
+    border-radius: 30px;
+    width: 200px;
+    height: px;
+    font-size: 15px;
+    background-color: #003D76;
+    color: white;
+}
+
+.text-log{
+    display: flex;
+    font-size: 10px;
+    gap: 6rem;
+}
+
+.link{
+    color: white;
+    font-size: 12px;
+}
+
+.return{
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: end;
+    }
+    
+    .link-x{
+        text-decoration: none;
+    }
+    
+    .link-x p{
+        font-size: 30px;
+    }
+
+
+/* ------------------------------------------------------------------------------------------------------*/

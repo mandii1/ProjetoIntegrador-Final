@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    background-color:#2379be ;
+    
+}
+
+.empresa1{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+    
+    
+}
+.empresa2{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.empresa3{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+
+main{
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+}
+.fileira1{
+    flex-direction: column;
+    padding: 10px 10px 25px 10px;
+   
+
+
+
+}
+.logoempresa1{
+    background-color:#163E64;
+    padding: 10px;
+}
+.logoempresa2{
+    background-color:#163E64;
+    padding: 10px;
+}
+.logoempresa3{
+    background-color:#163E64;
+    padding: 10px;
+}
+.fileira2{
+    flex-direction: column;
+    padding: 10px 10px 25px 10px;
+   
+    right: 20px;
+    
+}
+.logoempresa4{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa4{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.logoempresa5{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa5{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.logoempresa6{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa6{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.fileira3{
+    flex-direction: column;
+    padding: 10px 10px 25px 10px;
+    
+}
+.logoempresa7{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa7{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.logoempresa8{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa8{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.logoempresa9{
+    background-color:#163E64;
+    padding: 10px;
+}
+.empresa9{
+    font-family:  'Noto Serif Thai', sans-serif;
+    font-size: 20px;
+    color: #163E64;
+    display: inline start;
+    display: flex;
+}
+.imagem1{
+    padding: 10px;
+    
+}
+
+
+.imagemanuncio{
+    
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    background-color: gray;
+    padding: 8rem;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    font-family:  'Noto Serif Thai', sans-serif;
+}
+
+.back{
+    display: flex;
+    background-color: antiquewhite;
+}
+.text2{
+font-family: 'Oleo Script Swash Caps', sans-serif;
+font-size:15px ;
+color: #003D76;
+
+
+
+}
+
